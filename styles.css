@@ -1,0 +1,64 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    color: #00df00;;
+}
+h3{
+    text-align:center;
+    height: 100px;width: 200px;
+    border: solid 5px #000000;
+    padding: 20px;
+    width: 200px;
+    color: #ff0000;
+}
+p{
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 3em;
+
+}
+
+.box1{
+    width: 200px;
+    height: 150px;
+    background: rgb(247, 162, 162);
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    }
+    .box2{
+    width: 200px;
+    height: 150px;
+    background: rgb(250, 240, 106);
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    }
+    .box3{
+    width: 200px;
+    height: 150px;
+    background: rgb(162, 202, 247);
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    }
+    -- style.css --
+div {
+  width: 300px;
+  height: 300px;
+  background-color: #ccffff;
+  position: relative;
+}
+span {
+  width: 100px;
+  height: 100px;
+  display: block;
+  color: white;
+  background-color: #00abae;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
